@@ -5,25 +5,24 @@
  * Draws a House Picture
  */
 
-//Imports for the program.
-import acm.graphics.*;
-import acm.program.GraphicsProgram;
-import java.awt.Color;
-import java.util.Random;
 
-public class PP_Sales_Applet extends GraphicsProgram 
+//Imports for the program.
+import acm.program.ConsoleProgram;
+
+
+public class PP_Sales_Applet extends ConsoleProgram
 {
+	
 	public void run()
 	{
+		/**Set the size of the applet*/
+		setSize(500,400);
 		
-		//Variables for the project.
-		/**Values for the window Size*/
-		int windowX = 400;
-		int windowY = 300;
+		/**Gathers the inputs from the user and stores them in a variable*/
+		String name = readLine("Enter your name:");
+		print(name);
 		
-		//Sets the size of the window for the program
-		 setSize(windowX, windowY);
-		 
-		 
+		
+		
 	}
 }
