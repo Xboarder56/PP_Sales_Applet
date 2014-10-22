@@ -17,6 +17,7 @@ public class PP_Sales_Applet extends ConsoleProgram
 	
 	public void run()
 	{
+
 		
 		double tax =0.095;
 		double discount =0.1;
